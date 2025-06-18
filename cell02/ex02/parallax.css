@@ -1,0 +1,40 @@
+ h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.parallax {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#scene1 {
+  background-image: url("https://www.allrecipes.com/thmb/HIDJtDhe9QiMl9MPPD7hwTqNPNc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-KFC-colonel-logo-4x3-38f8055a9daf41c0b607ee60de9314fa.jpg");
+}
+#scene2 {
+  background-image: url("https://i.ytimg.com/vi/GJtDu20cKig/hqdefault.jpg");
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.content {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.2rem;
+}
